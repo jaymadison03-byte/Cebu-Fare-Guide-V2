@@ -1,0 +1,10 @@
+CEBU FARE GUIDE V25 – VEHICLE COVERAGE LIMITS
+
+- Split Traditional Jeepney and Multicab into separate vehicle categories in the UI and admin forms.
+- Traditional jeepney route recommendations are limited to routes whose listed stops do not explicitly extend outside Cebu City.
+- Multicab recommendations are limited to the South Cebu corridor Carcar–Talisay and the North Cebu corridor Mandaue–Danao.
+- Applied the same coverage checks to direct rides, transfer candidates, corridor suggestions, and the public route-code directory.
+- Existing route entries that were labelled traditional jeepney but extend outside Cebu City are suppressed from public recommendations rather than silently reclassified as multicabs. Their source records remain available in the project data/admin area for later correction.
+- Added automated coverage-boundary tests.
+
+Important: A permitted corridor is not proof that a specific multicab route is operating. Multicab route entries still need documented stops, operators, and current service confirmation before they can be recommended.

@@ -1,0 +1,13 @@
+CEBU FARE GUIDE V24 — AUTOMATIC ROUTE MATCHING FIX
+
+Based on the saved V23 ready-to-run project.
+
+Changes:
+- Added route-specific landmark-to-stop aliases for documented landmarks on selected Metro Cebu routes.
+- Added Fuente Osmena Circle to the 06B ordered stop sequence, reflecting the route directory's listed corridor.
+- Added one-transfer suggestions only when two routes share an explicitly listed stop and both legs match the selected journey.
+- Kept corridor/coverage-only leads separate from direct rides; barangays and vague vicinity labels are not silently promoted to exact stops.
+- Added a local smoke-test command: npm run test:routes.
+
+Important data note:
+The included routes are still marked unverified unless their source data says otherwise. A route match means the saved directory supports the path; it does not independently confirm today's service operation, exact curbside boarding point, or fare.

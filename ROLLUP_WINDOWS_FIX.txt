@@ -1,0 +1,22 @@
+Windows Application Control compatibility fix
+
+This project pins Vite's Rollup dependency to @rollup/wasm-node, the WebAssembly
+build of Rollup, to avoid loading the blocked rollup.win32-x64-msvc native addon.
+
+IMPORTANT: Start from a clean install. In Command Prompt, open this project folder
+(the folder containing package.json) and run:
+
+  rmdir /s /q node_modules
+  del package-lock.json
+  npm install
+  npm list rollup vite @rollup/wasm-node
+  npm run build
+  npm run dev
+
+The npm list output should show the Rollup dependency resolving through the
+@rollup/wasm-node package. If Windows still blocks a file, do not disable
+Application Control; ask the device administrator to review the block event.
+
+The WebAssembly package addresses the Rollup native-addon error only. It does
+not verify route data or guarantee that every other native build tool is allowed
+by the device's security policy.

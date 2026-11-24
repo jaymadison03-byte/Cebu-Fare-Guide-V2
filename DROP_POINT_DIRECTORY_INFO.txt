@@ -1,0 +1,7 @@
+CEBU FARE GUIDE V5 — DROP POINT DIRECTORY
+
+Loaded 844 selectable entries from the previously supplied Cebu drop-point directory, plus route stops and LGU names.
+
+Coordinates are not fabricated for every entry. Known starter points keep their checked coordinates; other entries are geocoded on demand using OpenStreetMap Nominatim when selected or when calculating a route. If a place cannot be geocoded, use Pin Origin / Pin Destination to set its exact position manually.
+
+Route codes and corridors transcribed from the user's message are marked unverified. Unknown codes remain listed with blank alignment until confirmed. This is not an official route inventory.

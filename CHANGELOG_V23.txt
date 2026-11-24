@@ -1,0 +1,15 @@
+CEBU FARE GUIDE V23 - ROUTE INVENTORY ALIGNMENT
+
+Changes:
+- Removed the unsupported Route 45: San Fernando-Naga-Tabunok record.
+- Removed the unsupported Route 46: Carcar-San Fernando-Naga-Tabunok record.
+- Route 45 now follows the uploaded inventory: San Fernando-Basak.
+- Route 46 now follows the uploaded inventory: Carcar-Tabunok; operator CPOTC is shown from the inventory.
+- Route 46 may appear as a clearly labeled possible south-corridor lead for Naga/San Fernando searches, but is not falsely promoted to a direct ride.
+- Existing Naga-related modern PUJ services remain separate from numbered jeepney route results.
+
+Important data limitation:
+The uploaded inventory does not specify Naga or San Fernando as intermediate stops on Route 46, nor Naga as an intermediate stop on Route 45. Therefore the application must not claim either route is a confirmed direct ride for San Fernando-Naga until the exact route alignment is verified.
+
+Build status:
+Not verified in this environment because npm dependency installation timed out and Vite was not available. Run npm install and npm run build locally.

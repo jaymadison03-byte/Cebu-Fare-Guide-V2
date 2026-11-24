@@ -1,0 +1,7 @@
+CEBU FARE GUIDE V26
+
+- Combined Traditional Jeepney and Multicab into one passenger-facing category: “Jeepney / Multicab”.
+- Removed separate Traditional Jeepney and Multicab filters from the public route directory.
+- Combined both into one fare-estimate selection and one public route label.
+- Preserved the internal route mode values so coverage safeguards remain enforced: traditional jeepneys are limited to Cebu City; south multicabs to Talisay–Carcar; north multicabs to Mandaue–Danao.
+- Administrator route classifications remain separate internally for data control and coverage enforcement.
